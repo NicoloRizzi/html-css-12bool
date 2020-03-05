@@ -17,6 +17,8 @@
 
 .container {
   box-shadow: 5px 10px;
+  border: 5px solid black;
+  position: relative;
 }
 
 h1 {
@@ -28,4 +30,16 @@ header {
   text-align: center;
   background-color:#e6e6e6;
   margin-bottom: 10px;
+}
+
+img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 200px;
+}
+
+.absolute {
+  position: absolute;
 }
